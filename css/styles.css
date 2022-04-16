@@ -169,8 +169,6 @@ img {
   cursor: pointer;
   margin: 0 auto;
   display: block;
-  min-width: 200px;
-  height: 50px;
   padding: 10px 32px;
 }
 
