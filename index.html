@@ -22,33 +22,32 @@
     <!---Шапка сайту-->
     <header class="header">
       <div class="container">
+        <a href="/" class="logo-up link"
+          >Web<span class="logo-first">Studio</span></a
+        >
         <nav class="header-navigation">
-          <a href="/" class="logo link"
-            >Web<span class="logo-first">Studio</span></a
-          >
-
           <ul class="header-list list">
             <li class="header-item">
               <a class="header-link link current" href="./index.html">Студия</a>
             </li>
             <li class="header-item">
-              <a class="header-link link" href="./portfolio.html">Портфолио</a>
+              <a class="header-link link" href="./portfolio.html"
+                >Портфолио</a
+              >
             </li>
             <li class="header-item">
               <a class="header-link link" href="/Контакты">Контакты</a>
             </li>
           </ul>
         </nav>
-        <p>
+        <div class="header-connect">
           <a class="header-address link" href="malto:info@devstudio.com">
             info@devstudio.com
           </a>
-        </p>
-        <p>
           <a class="header-address link" href="tel:+380961111111"
             >+38 096 111 11 11</a
           >
-        </p>
+        </div>
       </div>
     </header>
 
@@ -131,6 +130,7 @@
       </section>
 
       <section class="team">
+        <div class="container">
         <h2 class="team-title">Наша команда</h2>
         <ul class="team-list list">
           <li class="team-item">
@@ -139,10 +139,12 @@
               alt="Игорь Демьяненнко"
               width="270"
               height="260"
-              class="team-img"
+              
             />
+            <div class="name-position">
             <h3 class="team-name">Игорь Демьяненнко</h3>
             <p lang="en" class="team-position">Product Designer</p>
+            </div>
           </li>
           <li class="team-item">
             <img
@@ -150,10 +152,12 @@
               alt="Ольга Репина"
               width="270"
               height="260"
-              class="team-img"
+             
             />
+            <div class="name-position">
             <h3 class="team-name">Ольга Репина</h3>
             <p lang="en" class="team-position">Frontend Developer</p>
+            </div>
           </li>
           <li class="team-item">
             <img
@@ -161,10 +165,12 @@
               alt="Николай Тарасов"
               width="270"
               height="260"
-              class="team-img"
+              
             />
+            <div class="name-position">
             <h3 class="team-name">Николай Тарасов</h3>
             <p lang="en" class="team-position">Marketing</p>
+            </div>
           </li>
           <li class="team-item">
             <img
@@ -172,10 +178,12 @@
               alt="Михаил Ермаков"
               width="270"
               height="260"
-              class="team-img"
+              
             />
+            <div class="name-position">
             <h3 class="team-name">Михаил Ермаков</h3>
             <p lang="en" class="team-position">UI Designer</p>
+            </div>
           </li>
         </ul>
         </div>
@@ -185,7 +193,7 @@
     <!--Подвал-->
     <footer class="footer-content">
       <div class="container">
-        <a href="/" class="logo link"
+        <a href="/" class="logo-down link"
           >Web<span class="logo-second">Studio</span></a
         >
         <address>
